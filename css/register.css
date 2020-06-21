@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    background-color: #FAFBFC;
+    z-index: -5;
+    font-family: 'cwTeXYen', sans-serif;
+    background-image: url("../img/loginBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#id_wrapper {
+    min-height: 100%;
+    position: relative;
+}
+#id_boxcard{
+    border-color: #FFE845;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+
+    width:25% ;
+    height:60%;
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    background-color:#FAFBFC ;
+    z-index: 1;
+    opacity: 90%
+}
+#id_footer {
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 101%;
+    background-color:#FFE845 ;
+    display: block;
+    text-align: center;
+    margin-left: -10px;
+    opacity: 40%;
+}
+#id_content {
+    /* 留出header及footer區塊的空間 */
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+#loginTitle{
+    position: absolute;
+    left: 20%;
+    top: 37%;
+    width: 25%;
+    height: auto;
+}

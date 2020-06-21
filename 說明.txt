@@ -1,0 +1,27 @@
+所有網頁檔的附檔名都是jsp
+建立新的網頁使用allback檔案
+
+index.jsp(index內所有連接都跳轉到login.jsp)
+login.jsp(跳轉至index_login.jsp)
+
+index_login.jsp是登錄狀態，希望每次跳轉到其他頁面的時候都先經過確認登陸的jsp再到要跳轉的網頁
+
+allback裡的連結已有
+1.search.jsp (搜尋商品)
+2.cart.jsp(購物車)
+3.envelope.jsp(聯絡我們)
+4.member.jsp(會員資料)
+5.cheese.jsp(賣起司的頁面)
+6.dessert.jsp(賣起司甜點的頁面)
+7.aboutus.jsp(關於我們的頁面)
+8.allgoods.jsp(所有商品的頁面)
+9.logout.jsp(登出後直接跳轉到index)
+
+
+如果要做熱銷排行榜的話，會放在首頁index.jsp
+
+<!--在下面放入內容-->
+<!-- 在上面放入內容 -->
+這是內容區塊，請勿更動以外的地方
+
+只要將更新/新增的檔案傳到line裡面就可以了

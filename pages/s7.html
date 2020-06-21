@@ -1,0 +1,169 @@
+
+<meta http-equiv="Content-Type" content="text/html; charaset=utf-8" />
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>英式葡萄起司蛋糕</title>
+	<style>
+		@import url(../css/goodback.css);
+		@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+		@import url(../css/snackbuy.css);
+		@import url(../css/comment.css);
+	</style>
+	<script src="https://kit.fontawesome.com/5dacb35190.js" crossorigin="anonymous"></script>
+		<script>
+
+ 
+$(function() {
+  // This button will increment the value
+  $('.qtyplus').click(function(e) {
+    // Stop acting like a button
+    e.preventDefault();
+    // Get the field name
+    fieldName = $(this).attr('field');
+    // Get its current value
+    var currentVal = parseInt($('input[name=' + fieldName + ']').val());
+    // If is not undefined
+    if (!isNaN(currentVal)) {
+      // Increment
+      $('input[name=' + fieldName + ']').val(currentVal + 1);
+    } else {
+      // Otherwise put a 0 there
+      $('input[name=' + fieldName + ']').val(0);
+    }
+  });
+  // This button will decrement the value till 0
+  $(".qtyminus").click(function(e) {
+    // Stop acting like a button
+    e.preventDefault();
+    // Get the field name
+    fieldName = $(this).attr('field');
+    // Get its current value
+    var currentVal = parseInt($('input[name=' + fieldName + ']').val());
+    // If it isn't undefined or its greater than 0
+    if (!isNaN(currentVal) && currentVal > 0) {
+      // Decrement one
+      $('input[name=' + fieldName + ']').val(currentVal - 1);
+    } else {
+      // Otherwise put a 0 there
+      $('input[name=' + fieldName + ']').val(0);
+    }
+  });
+});
+</script>
+		　　　　
+</head>
+<body>
+	<div id="id_wrapper">
+		<div class="navbar">
+			<div id="brand_box" >
+				<span id="back"></span>
+				
+				<a href="../index.html"><img class="img_brand" src="../img/brand.png" alt="brand"></a>
+				<span class="search_style" >
+					<a href="search.html"><i class="fas fa-search"></i></a>
+				</span>
+				<span class="cart_style" >
+  					<a href="buycar.html" ><i class="fas fa-cart-plus" title="購物車"></i></a>
+				</span>
+				<span class="envelope_style" >
+					<a href="mailto:CheeseLover@gmail.com"><i class="fas fa-envelope" title="聯絡我們"></i></a>
+				</span>
+				<span class="idcard_style" >
+					<a href="member.html"><i class="far fa-id-card" title="會員資料"></i></a>
+				</span>
+				<span class="headset_style" >
+					<a href="#service" ><i class="fas fa-headset" title="聯絡客服"></i></a>
+				</span>
+				
+			</div>
+			<!-- 上方欄列-->
+			<div class="nav_box">
+				<ul>
+					<li><a href="cheese.html">純起司</a></li>
+					<li><a href="snack.html">起司點心</a></li>
+					<li><a href="aboutus.html">關於我們</a></li>
+					<li><a href="allgoods.html">所有商品</a></li>
+					<li><a href="../index.html">登出</a></li>
+					<li><a>Welcome!</a></li>
+				</ul>
+			</div>
+			<!---->
+		</div>
+		<div>
+			<div class="lightbox" id="service" >
+				<figure>
+					<a href="#back" class="close"></a>
+					<figcaption>
+						<p1>Monday&emsp;To&emsp;Friday&emsp;8AM~5PM</p1>
+						<hr>
+						<p2>03-3755195</p2>
+					</figcaption>
+				</figure>
+			</div>
+			<div id="id_content">
+				<span id="id_toTop" class="topbox"></span>
+				<!-- 在下面放入內容 -->
+    <section>
+            	<div class="PIC" id="S1">          	
+              <img id="myImg" src="../img/cs4.jpeg" alt="英式葡萄起司蛋糕" width="350px" height="350px" style="width:100%;max-width:350px">
+                </div>
+    </section>
+	<section>
+            	<h1 class="T1">英式葡萄起司蛋糕</h1>
+            	<h3 class="T2">★　使用輕乳酪製成</h3>
+            	<h3 class="T3">★　採用英國葡萄</h3>
+            	<h3 class="T4">★　熱量：560大卡</h3>
+       	
+       	 		<form action="login.html" class="T5"  > 
+				<label for="">數量: </label>
+                <input type="radio" name="price" value="62" checked>
+               	<form id='myform' method='POST' action='#' class="T5">
+    			<input type='button' value='-' class='qtyminus' field='quantity' /><!--
+    			--><input type='text' name='quantity' value='0' class='qty' /><!--
+				--><input type='button' value='+' class='qtyplus' field='quantity' />                                            
+                <button type="submit" name="sales" value="英式葡萄起司蛋糕" id="BUYY" method="post">我要購買</button>
+        </form>  
+        </form>  
+
+              	<h3 class="price1">嚐鮮價</h3>
+                <h3 class="price2">　$205</h3>
+                <h3 class="price3">/一塊</h3>
+
+        <div class="star-eval">
+			<span class="stars-bg">
+        	<!-- 宽度由实际数据自行计算 如4.2/5*100% -->
+    			<i class="star-active" style="width: 73%"></i>
+			</span>
+   			<span class="star-word"><b>3.8</b>顆星</span>
+ 				<p class="star-assess">先前顧客評價</p>
+		</div>
+    </section>
+
+
+<!--評論區-->
+<form action="comment.html" method="post">
+ <fieldset class="commentfield">
+  <legend style="font-size: 30px;">商品評論:</legend><br><br>
+  <label for="comment">Comment:</label><br><br>
+  <textarea cols="50" rows="5" id="comment" name="parmasoncomment" style="border-radius: 5px; border-color: Tomato;">
+  </textarea><br><br><br><br>
+  <input type="submit" value="Submit" class="button button3">
+ </fieldset>
+</form>
+<!--評論區結束-->
+
+				<!-- 在上面放入內容 -->
+			</div>
+			<span class="topArrow_style" >
+				<a href="#id_toTop" ><i class="far fa-arrow-alt-circle-up"></i></a>
+			</span>
+		</div>
+		<!--最底-->
+		<footer id="id_footer">
+			<p style="font-size: 100%; font-weight: 800; position: absolute; top: -10px; text-align: center;left: 40%;">Copyright&copy;&ensp;2020 &ensp;by&ensp;Cāseus Comp.</p>
+    	</footer>
+</body>
+</html>

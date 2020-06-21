@@ -1,0 +1,70 @@
+
+<meta http-equiv="Content-Type" content="text/html; charaset=utf-8" />
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CheeseLover</title>
+	<style>
+		@import url(../css/login.css);
+		@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+		.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+		.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid Tomato;
+  border-radius: 5px;
+}
+
+.button3:hover {
+  background-color: Tomato;
+  color: white;
+}
+	</style>
+	<script src="https://kit.fontawesome.com/5dacb35190.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="id_wrapper">
+		<div id="id_content">
+			<img src="../img/loginTitle.png" alt="title" id="loginTitle"/>
+			<!-- 在下面放入內容 -->
+			<div id="id_boxcard">
+				<br>
+				<!--放入登入介面表格-->
+				
+<form name="member_login" method="post" action="member_login.html" onsubmit="return check_nonnull();">
+ <fieldset style="color:Tomato;border-style: none;padding-left: 100px;">
+  <legend style="font-size: 30px;">登入資訊:</legend><br><br>
+  <label for="account">Account:</label><br><br>
+  <input type="text" id="account" name="member_account" onkeyup="value=value.replace(/[\W]/g,'')" style="border-radius: 5px; border-color: Tomato;"><br><br><br><br>
+  <label for="password">Password:</label><br><br>
+  <input type="text" id="password" name="member_password" onkeyup="value=value.replace(/[\W]/g,'')" style="border-radius: 5px; border-color: Tomato;"><br><br><br><br>
+  <input type="submit" name="login" value="登入" class="button button3">
+  <a href="register.html" class="button button3">註冊</a>
+ </fieldset>
+</form>
+
+			</div>
+
+			<!-- 在上面放入內容 -->
+		</div>
+		<!--最底-->
+		<footer id="id_footer">
+			<p style="font-size: 100%; font-weight: 800; position: absolute; top: -10px; text-align: center;left: 40%;">Copyright&copy;&ensp;2020 &ensp;by&ensp;Cāseus Comp.</p>
+    	</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+
+<meta http-equiv="Content-Type" content="text/html; charaset=utf-8" />
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CheeseLover</title>
+	<style>
+		@import url(../css/register.css);
+		@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+		.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+		.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid Tomato;
+  border-radius: 5px;
+}
+
+.button3:hover {
+  background-color: Tomato;
+  color: white;
+}
+.bside{
+	border-radius: 5px;
+	border-color: Tomato;
+	position: absolute;
+	left: 50%;
+}
+	</style>
+	<script src="https://kit.fontawesome.com/5dacb35190.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="id_wrapper">
+		<div id="id_content">
+			<img src="../img/loginTitle.png" alt="title" id="loginTitle"/>
+			<!-- 在下面放入內容 -->
+			<div id="id_boxcard">
+				<br>
+				<!--放入登入介面表格-->
+
+
+<!-- 還在改，改到一半 -->
+<form action="register_2.html" method="POST" onsubmit="return check_nonnull();">
+ <fieldset style="color:Tomato;border-style: none;padding-left: 50px;">
+  <legend style="font-size: 30px;">創建帳號:</legend><br>
+
+  <label>會員帳號</label>
+  <input id="id" placeholder="帳號" name="id" onkeyup="value=value.replace(/[\W]/g,'')" class="bside"><br><br>
+
+  <label>會員密碼</label>
+  <input type="password" id="pwd" placeholder="密碼" name="pwd" onkeyup="value=value.replace(/[\W]/g,'')" class="bside"><br><br>
+
+  <label>會員姓名</label>
+  <input id="name" name="name" class="bside"><br><br>
+
+  	<label>會員性別</label>
+  	<div class="bside">
+		男<input type="radio" name="sex" value="boy"/>
+		女<input type="radio" name="sex" value="girl"/>
+	</div><br><br>
+	<label>會員生日</label>
+	<input class="bside" id="data" placeholder="ex: 1997/03/19" name="bday" /><br><br>
+	<label>會員電話</label>
+	<input class="bside" id="tel" name="tel" onkeyup="value=value.replace(/[\W]/g,'')" /><br><br>
+	<label>會員住址</label>
+	<input class="bside" id="addr" name="addr"/><br><br>
+	<label>電子信箱</label>
+	<input class="bside" id="email" placeholder="example@mail.com" name="email"/><br><br>
+
+	  <input type="submit" value="送出" name="SB" class="button button3">
+	  <a href="../index.html" class="button button3">回首頁</a>
+ </fieldset>
+</form>
+<!-- 還在改 -->
+
+
+
+
+			</div>
+
+			<!-- 在上面放入內容 -->
+		</div>
+		<!--最底-->
+		<footer id="id_footer">
+			<p style="font-size: 100%; font-weight: 800; position: absolute; top: -10px; text-align: center;left: 40%;">Copyright&copy;&ensp;2020 &ensp;by&ensp;Cāseus Comp.</p>
+    	</footer>
+	</div>
+</body>
+</html>

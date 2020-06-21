@@ -1,0 +1,201 @@
+a {
+    color:black;
+}
+.S01{
+  position: absolute;
+  top: 220px;
+  left: 220px;
+  float:left;
+  text-align:center;
+}
+#S01{
+	border: 5px #FFFFBF solid;
+}
+.S02{
+  position: absolute;
+  top: 220px;
+  left: 900px;
+  float:right;
+  text-align:center;
+}
+#S02{
+	border: 5px #FFFFBF solid;
+}
+.S03{
+  position: absolute;
+  top: 870px;
+  left: 220px;
+  float:left;
+  text-align:center;
+}
+#S03{
+	border: 5px #FFFFBF solid;
+}
+.S04{
+  position: absolute;
+  top: 870px;
+  left: 900px;
+  float:right;
+  text-align:center;
+}
+#S04{
+	border: 5px #FFFFBF solid;
+}
+.S05{
+  position: absolute;
+  top: 1520px;
+  left: 220px;
+  float:left;
+  text-align:center;
+}
+#S05{
+	border: 5px #FFFFBF solid;
+}
+.S06{
+  position: absolute;
+  top: 1520px;
+  left: 900px;
+  float:right;
+  text-align:center;
+}
+#S06{
+	border: 5px #FFFFBF solid;
+}
+.S07{
+	position: absolute;
+  top: 2170px;
+  left: 220px;
+  float:left;
+  text-align:center;
+}
+#S07{
+	border:5px #FFFFBF solid;
+}
+.S08{
+	position: absolute;
+  top: 2170px;
+  left: 900px;
+  float:right;
+  text-align:center;
+}
+#S08{
+	border:5px #FFFFBF solid;
+}
+
+
+
+.S09{
+  position: absolute;
+  top: 2820px;
+  left: 220px;
+  float:left;
+  text-align:center;
+}
+#S09{
+  border: 5px #FFFFBF solid;
+}
+.S010{
+  position: absolute;
+  top: 2820px;
+  left: 900px;
+  float:right;
+  text-align:center;
+}
+#S010{
+  border: 5px #FFFFBF solid;
+}
+.S011{
+  position: absolute;
+  top: 3470px;
+  left: 220px;
+  float:left;
+  text-align:center;
+}
+#S011{
+  border: 5px #FFFFBF solid;
+}
+.S012{
+  position: absolute;
+  top: 3470px;
+  left: 900px;
+  float:right;
+  text-align:center;
+}
+#S012{
+  border: 5px #FFFFBF solid;
+}
+.S013{
+  position: absolute;
+  top: 4120px;
+  left: 220px;
+  float:left;
+  text-align:center;
+}
+#S013{
+  border: 5px #FFFFBF solid;
+}
+.S014{
+  position: absolute;
+  top: 4120px;
+  left: 900px;
+  float:right;
+  text-align:center;
+}
+#S014{
+  border: 5px #FFFFBF solid;
+}
+.S015{
+  position: absolute;
+  top: 4770px;
+  left: 220px;
+  float:left;
+  text-align:center;
+}
+#S015{
+  border:5px #FFFFBF solid;
+}
+.S016{
+  position: absolute;
+  top: 4770px;
+  left: 900px;
+  float:right;
+  text-align:center;
+}
+#S016{
+  border:5px #FFFFBF solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SALES img:hover{
+	 background-color: #444;
+	 opacity:0.5;
+   transition: .3s;
+}
+.SALES a:hover{
+	color: #666;
+}

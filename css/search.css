@@ -1,0 +1,41 @@
+ input {
+    padding:5px 15px; background:#FFFFF2; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+#SERS{
+  	position: absolute;
+  	top:265px;
+  	left:150px;
+  	font-size: 20px;
+    color:#566CA8;
+}
+#SERP{
+	 position: absolute;
+  	top:370px;
+  	left:150px;
+  	font-size: 20px;
+    color:#566CA8;
+}
+.search1{
+  	position: absolute;
+  	top:385px;
+  	left:300px;
+  	font-size: 20px;
+}
+.search2{
+	 position: absolute;
+	 top:280px;
+	 left:300px;
+	 font-size: 20px;
+	 width:850px;
+}
+#searchPIC{
+    position: absolute;
+    top:280px;
+    left: 1150px;
+}
+#selectcolor{
+    color:#969696;background-color:#FFFFF2;
+}

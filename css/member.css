@@ -1,0 +1,23 @@
+.member_boxcard{
+    border-color: #FFE845;
+    border-style: solid;
+    border-width: 6px;
+
+    width:80% ;
+    min-height:75%;
+    position:absolute;
+    top: 25%;
+    left: 10%;
+    background-color:#FAFBFC ;
+}
+.member_boxcard hr{
+    border: 3px solid #FFE845;
+    position: relative;
+    
+}
+.member_boxcard p{
+    font-size: 25px;
+    color:#566CA8;
+    left: 10%;
+    position: relative;
+}
